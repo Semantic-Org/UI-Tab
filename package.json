@@ -1,10 +1,6 @@
 {
   "name": "semantic-ui-tab",
-<<<<<<< HEAD
   "version": "1.0.0-beta",
-=======
-  "version": "1.0.0",
->>>>>>> 28ab734208e2c4599fb0a5a271fd7a6e512589cd
   "title": "Semantic UI - Tab",
   "description": "Single component release of tab",
   "homepage": "http://www.semantic-ui.com",
@@ -17,16 +13,9 @@
   "bugs": {
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
-<<<<<<< HEAD
   "devDependencies": {},
   "dependencies": {
     "jquery": "x.x.x"
   },
-=======
-  "dependencies": {
-    "jquery": "x.x.x"
-  },
-  "devDependencies": {},
->>>>>>> 28ab734208e2c4599fb0a5a271fd7a6e512589cd
   "main": "index.js"
 }
