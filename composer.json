@@ -14,5 +14,9 @@
     "jquery": "x.x.x"
   },
   "main": "tab.js",
+<<<<<<< HEAD
   "version": "1.0.0-beta"
+=======
+  "version": "1.0.0"
+>>>>>>> 28ab734208e2c4599fb0a5a271fd7a6e512589cd
 }
