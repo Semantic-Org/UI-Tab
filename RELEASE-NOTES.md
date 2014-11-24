@@ -3,6 +3,14 @@
 - **Table** - Tables are no longer striped by default, instead you must specify the 'striped' variation
 - **Table** - Tables now have 'basic' and 'very' basic variations
 
+### Version 0.19.2 - Sep 11, 2014
+
+- **Grid** - (Backport from 1.0 branch) Fixes issue where some combinations of (tablet/mobile/computer) only does not function correctly
+
+### Version 0.16.0 - April 22, 2014
+
+- **Reveal** - Fixes reveal being broken in Chrome in ``0.15.5`` due to poor fix for reveal selectability
+
 ### Version 0.15.0 - Mar 14, 2014
 
 - **Table** - Fixes rounding on tables with multiple tfoot elements **Thanks webdesserts**
