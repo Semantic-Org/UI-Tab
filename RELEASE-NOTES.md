@@ -1,6 +1,5 @@
-### Version 1.0.0 - XX XX, 2014
+### Version 1.0.0 - November 24, 2014
 
-- **Accordion** - Accordions are not unstyled by default allowing for more compatability with other modules without having to override styles. Styled accordions are now included as a variation ``ui styled accordion``
 - **Table** - Tables are no longer striped by default, instead you must specify the 'striped' variation
 - **Table** - Tables now have 'basic' and 'very' basic variations
 
