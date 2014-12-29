@@ -1,3 +1,7 @@
+### Version 1.4.0 - December 22, 2014
+
+- Improved documentation for API and Tab to be slightly more comprehensive
+
 ### Version 1.3.0 - December 17, 2014
 
 - **Steps** - Steps are now responsive for mobile by default, and have optional responsive styles for tablet
