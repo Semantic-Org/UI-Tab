@@ -1,3 +1,18 @@
+### Version 1.7.0 - January 14, 2015
+
+- **Segment** - ``ui tabular menu`` now correctly aligns with attached segment when using fluid variation *Thanks @MohammadYounes*
+- **Steps** - Steps now use ``table-cell`` to allow steps to be equal height by default, even with different content height.
+
+### Version 1.6.0 - January 05, 2015
+
+- **Tab/Segment** - Fixes first tab being 1pixel taller than all other tabs
+
+### Version 1.5.0 - December 30, 2014
+
+- **Table** - Table now has coupling with image to make sure size is preserved correctly with table sizing when used inside a table cell.
+- **Form** - Fixed (x) wide field not having correct bottom field margin when in ``fields`` group on tablet or mobile
+- **Tab** - Calls to global ``$.tab()`` would not pass arguments correctly
+
 ### Version 1.4.0 - December 22, 2014
 
 - Improved documentation for API and Tab to be slightly more comprehensive
