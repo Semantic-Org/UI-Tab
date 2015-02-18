@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### UI Changes
 
 - **Input** - Input with dropdowns is now much easier, see docs. `action input` and `labeled input` now use `display: flex`. `ui action input` now supports `<button>` tag usage (!) which support `flex` but not `table-cell`
@@ -7,6 +8,8 @@
 - **Dropdown** - Keyboard navigation will now allow opening of sub menus with right/left arrow. Enter will open sub-menus on an unselectable category (`allowCategorySelection: false`) as well.
 - **Search** - Search results no longer hide/show when user changes tab or page loses focus
 
+=======
+>>>>>>> 4dcbae6dedf0e8083cec90f9c5be27f6cbdeb8af
 ### Version 1.7.0 - January 14, 2015
 
 - **Segment** - ``ui tabular menu`` now correctly aligns with attached segment when using fluid variation *Thanks @MohammadYounes*
