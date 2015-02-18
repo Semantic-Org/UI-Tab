@@ -1,0 +1,27 @@
+{
+  "name": "semantic/tab",
+  "description": "Single component release of tab",
+  "homepage": "http://www.semantic-ui.com",
+  "authors": [{
+    "name": "Jack Lukic",
+    "email": "jacklukic@gmail.com",
+    "web": "http://www.jacklukic.com",
+    "role": "Creator"
+  }],
+  "keywords": [
+    "semantic",
+    "ui",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "x.x.x"
+  },
+  "main": "tab.js",
+<<<<<<< HEAD
+  "version": "1.0.0-beta"
+=======
+  "version": "1.7.2"
+>>>>>>> 4dcbae6dedf0e8083cec90f9c5be27f6cbdeb8af
+}
