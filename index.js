@@ -734,10 +734,6 @@ module.exports.settings = {
 
   name            : 'Tab',
   namespace       : 'tab',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 1720ddd1e1f9db7d907e65ac7659c4821c080abe
 
   debug           : false,
   verbose         : true,
@@ -760,33 +756,6 @@ module.exports.settings = {
   onTabInit    : function(tabPath, parameterArray, historyEvent) {}, // called first time loaded
   onTabLoad    : function(tabPath, parameterArray, historyEvent) {}, // called on every load
 
-<<<<<<< HEAD
-=======
-=======
-
-  debug           : false,
-  verbose         : true,
-  performance     : true,
-
-  auto            : false,  // uses pjax style endpoints fetching content from same url with remote-content headers
-  history         : false,  // use browser history
-  historyType     : 'hash', // #/ or html5 state
-  path            : false,  // base path of url
-
-  context         : false,  // specify a context that tabs must appear inside
-  childrenOnly    : false,  // use only tabs that are children of context
-  maxDepth        : 25,     // max depth a tab can be nested
-
-  alwaysRefresh   : false,  // load tab content new every tab click
-  cache           : true,   // cache the content requests to pull locally
-  ignoreFirstLoad : false,  // don't load remote content on first load
-  apiSettings     : false,  // settings for api call
-
-  onTabInit    : function(tabPath, parameterArray, historyEvent) {}, // called first time loaded
-  onTabLoad    : function(tabPath, parameterArray, historyEvent) {}, // called on every load
-
->>>>>>> 4dcbae6dedf0e8083cec90f9c5be27f6cbdeb8af
->>>>>>> 1720ddd1e1f9db7d907e65ac7659c4821c080abe
   templates    : {
     determineTitle: function(tabArray) {} // returns page title for path
   },
