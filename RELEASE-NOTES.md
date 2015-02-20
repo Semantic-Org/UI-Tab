@@ -1,3 +1,9 @@
+### Version 1.9.3 - February 20, 2015
+
+- **Tab** - Fixed bug when loading `remote` content with `tab` where current tab would not hide while another tab is loading
+- **Tab** - Tab with remote content and `auto: true` now removes duplicate slashes from url path
+- **Tab** - Added new tab remote content example with stubbed AJAX using SinonJS
+
 ### UI Changes
 
 - **Input** - Input with dropdowns is now much easier, see docs. `action input` and `labeled input` now use `display: flex`. `ui action input` now supports `<button>` tag usage (!) which support `flex` but not `table-cell`
