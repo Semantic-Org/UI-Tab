@@ -1,3 +1,8 @@
+### Version 1.11.0 - March 3, 2015
+
+- **Icon** - added `@src` variable to make it adjustable with themes that dont support all types like `woff2`
+- **Table** - Fixes table on `mobile` sizes can surpass parent container width
+
 ### Version 1.9.3 - February 20, 2015
 
 - **Tab** - Fixed bug when loading `remote` content with `tab` where current tab would not hide while another tab is loading
