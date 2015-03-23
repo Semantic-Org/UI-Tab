@@ -1,3 +1,7 @@
+### Version 1.11.5 - March 23, 2015
+
+- **Dropdown** - Fix bug where element will not blur on tab key when search selection and no selection made
+
 ### Version 1.11.0 - March 3, 2015
 
 - **Icon** - added `@src` variable to make it adjustable with themes that dont support all types like `woff2`
