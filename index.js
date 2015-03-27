@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 1.11.5 - Tab
+ * # Semantic UI 1.11.6 - Tab
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -13,9 +13,8 @@
 
 "use strict";
 
+var _module = module;
 module.exports = function(parameters) {
-  var _module = module;
-
 
   var
     // use window context if none specified
