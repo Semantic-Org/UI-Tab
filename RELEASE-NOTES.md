@@ -1,3 +1,31 @@
+### Version 2.0.0 - June 30, 2015
+
+- **Modal** - If you are using a modal with image content, you will need to use `image content` on the parent element. This is because `flex` rules require parent styling that the previous `table-row` rules did not.
+- **Tab** - `onTabInit` and `onTabLoad` have been renamed to `onFirstLoad` and `onLoad` respectively. This is to conform to the naming conventions of other modules (no self reference). Previous callbacks will continue to work but will produce deprecation notices in console. Two new callbacks `onVisible` and `onRequest` have been added as well.
+- **Menu** - `vertical tabular menu`, a vertical tab menu, has been added
+- **Button** - Added `:focus` styles for all button types, all button examples in docs now are keyboard focusable using either `<button>` or `tabindex` where appropriate.
+- **Grid** - `celled grid` now removes internal cells on mobile and tablet when used with `doubling` grid responsive variation.
+- **Grid** - `celled` and `internally celled` grid now use flexbox instead of `display: table;`
+- **Tabs** - Tab will now manually correct page scroll position when linking to an in-page anchor in a hidden tab
+- **Tabs** - Added new callbacks `onTabVisible` and `onRequest`
+- **Tabs** - Added `parseScripts` option, defaults to `once` parsing inline scripts only first load
+- **Table** - Adds `selectable table` variation, which shows hover effect on row when hovering
+- **Table** - Added `vertical alignment` variations to `ui table`
+- **Table** - Added `single line` table variation which prevents text from wrapping
+- **Dropdown** - `focus` after changing tabs will no longer cause menu to re-open **Thanks @trevorharwell**
+- **Dropdown** - Fix issue with search dropdown refocusing on self the first time after "tabbing" away in Chrome
+- **List** - Bullets and numbers are no longer selectable in `bulleted list` and `ordered list`
+- **Menu** - `dropdown menu` in a `secondary pointing menu` or `tabular menu` now receive distinct active styling from other `active item`
+- **Tab** - multiple tab groups initialized together with `context: 'parent'` will now each use their own parent
+- **Tab** - Tabs now use the standard component design pattern internally
+- **Table** - Fixes `sorted` column are not correctly centered with `center aligned` due to margin on sort icon
+- **Table** - Fixes `ascending` and `descending` icons were reversed in table
+- **Table** - `very basic table` now works together with `padded table`
+- **Table** - Fix inheritance of text alignment and vertical alignment
+- **Header/Table/Divider** - These components now pull border color defaults from `site.variables` instead of using their own values
+- **Table** - Table header colors and padding defaults have been slightly adjusted
+- **Table** - Horizontal cell padding has been slightly reduced, and cell borders are slightly lighter.
+
 ### Version 1.11.5 - March 23, 2015
 
 - **Dropdown** - Fix bug where element will not blur on tab key when search selection and no selection made
@@ -84,7 +112,7 @@
 
 ### Version 0.7.0 - Oct 22, 2013
 
-- **Table** - Added aweosome new responsive style to ui tables
+- **Table** - Added awesome new responsive style to ui tables
 - **List** - Adds onTabInit for local tabs on first load
 - Adds sortable tables to docs
 - New tabbed doc style for modules
