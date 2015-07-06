@@ -1,3 +1,9 @@
+### Version 2.0.1 - June 30, 2015
+
+- **Tab** - Tab now correctly obeys `cache` setting. Removed use of API's local caching by default. [#2493](https://github.com/Semantic-Org/Semantic-UI/issues/2493)
+- **Tab** - Fixed bug where remote loaded tab content would not show `loading tab` on first load.
+- **Tab** - Added new examples for `evaluateScripts` and HTML5 state tabs
+
 ### Version 2.0.0 - June 30, 2015
 
 - **Modal** - If you are using a modal with image content, you will need to use `image content` on the parent element. This is because `flex` rules require parent styling that the previous `table-row` rules did not.
