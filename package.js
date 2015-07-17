@@ -2,7 +2,7 @@
 Package.describe({
   name    : 'semantic:ui-tab',
   summary : 'Semantic UI - Tab: Single component release',
-  version : '2.0.3',
+  version : '2.0.4',
   git     : 'git://github.com/Semantic-Org/UI-Tab.git',
 });
 
