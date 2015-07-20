@@ -1,6 +1,6 @@
 ### Version 2.0.4 - July 17, 2015
 
-- **Checkbox** - Checkbox now focus after click, allowing for tab navigation from current position [#2610](https://github.com/Semantic-Org/Semantic-UI/issues/2610)
+- **Checkbox** - Checkbox now focuses after click, allowing for tab navigation from current position [#2610](https://github.com/Semantic-Org/Semantic-UI/issues/2610)
 - **Menu/Segment/Table** - Consolidated `attached` logic for all components using attached. [#2599](https://github.com/Semantic-Org/Semantic-UI/issues/2599)
 
 ### Version 2.0.1 - July 6, 2015
