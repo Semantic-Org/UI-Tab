@@ -1,3 +1,7 @@
+### Version 2.0.7 - July 22, 2015
+
+- **Popup** - Fixed issue where popup would not open on tablets with both touchscreen and mouse on mouseenter. [#2715](https://github.com/Semantic-Org/Semantic-UI/issues/2715)
+
 ### Version 2.0.4 - July 17, 2015
 
 - **Checkbox** - Checkbox now focuses after click, allowing for tab navigation from current position [#2610](https://github.com/Semantic-Org/Semantic-UI/issues/2610)
