@@ -1,3 +1,7 @@
+### Version 2.1.4 - Sep 13, 2015
+
+- **Table** - Fixed issue where `(x) column segment table` was inheriting accidentally inheriting some grid styles
+
 #### Features
 
 - **Menu** - Added new `tabular` menu types, `right tabular`, `bottom tabular`, added many new `tabular` menu variables for customizing
