@@ -1,3 +1,7 @@
+### Version 2.1.7 - Dec 19, 2015
+
+- **Menu** - Fixed `1px` offset when `attached segment` follows `tabular menu` (max of 2 consecutive segments) [#3479](https://github.com/Semantic-Org/Semantic-UI/issues/3479)
+
 ### Version 2.1.5 - Nov 1, 2015
 
 - **Table** - Added `selectable` on table cell, allowing for full table-cell links
