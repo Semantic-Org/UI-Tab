@@ -1,3 +1,14 @@
+### Version 2.2.0 - June 26, 2016
+
+- **NPM** - NPM dependencies have all been updated to latest stable releases
+- **Table** - `definition table` now includes additional class names for forcing, or ignoring definition cell styles
+- **Tab** - Added new setting `cacheType`, can either be `html` or `response` (default). HTML will cache resulting html after callbacks, `response` will cache the original response so that it can be played back identically on future loads [#2534](https://github.com/Semantic-Org/Semantic-UI/issues/2534)
+- **Tab** - Added new option `deactivate`, defaults to `siblings` which will only deactivate tab activators that are DOM siblings elements to the activating element. Setting it to <code>'all'</code> will deactivate any other tab element initialized at the same time.
+- **Table** - `definition table` now supports `definition` variation to specify definition styles on an element that is not `:first-child`
+- **Table** - `definition table` now supports `ignored` variation to force a `first-child` to ignore its default definition stylings
+- **Menu** - `tabular menu` now has correct bottom margin [#4167](https://github.com/Semantic-Org/Semantic-UI/issues/4167)
+- **Table** - `striped selectable` table would not correctly show hover color on striped rows
+
 ### Version 2.1.7 - Dec 19, 2015
 
 - **Menu** - Fixed `1px` offset when `attached segment` follows `tabular menu` (max of 2 consecutive segments) [#3479](https://github.com/Semantic-Org/Semantic-UI/issues/3479)
