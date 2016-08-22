@@ -1,3 +1,7 @@
+### Version 2.2.3 - August 21, 2016
+
+- **Modal** - Modal will now focus first tabable element, not just `input` [#4370](https://github.com/Semantic-Org/Semantic-UI/issues/4370)
+
 ### Version 2.2.0 - June 26, 2016
 
 - **NPM** - NPM dependencies have all been updated to latest stable releases
