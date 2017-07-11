@@ -1,3 +1,7 @@
+### Version 2.2.11 - July 11, 2017
+
+- **Table**- Fix inverted table header color not applying properly to `sortable table` **Thanks @Banandrew** [#5303](https://github.com/Semantic-Org/Semantic-UI/issues/5303)
+
 #### Dropdown
 `multiple selection dropdown` no longer automatically adds the currently selected value when you "alt-tab" or blur the field, even when `forceSelection: true` is set.
 
