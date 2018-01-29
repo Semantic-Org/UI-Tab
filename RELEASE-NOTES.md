@@ -1,3 +1,7 @@
+### Version 2.2.14 - Jan 29, 2018
+
+- **Dropdown** - Fixes issue where dropdowns might accidentally animate closed two times when quickly tabbing through fields
+
 ### Version 2.2.11 - July 11, 2017
 
 - **Table**- Fix inverted table header color not applying properly to `sortable table` **Thanks @Banandrew** [#5303](https://github.com/Semantic-Org/Semantic-UI/issues/5303)
